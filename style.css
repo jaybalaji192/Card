@@ -37,8 +37,9 @@ html {
 
 .profile img {
     position: absolute;
-    margin: auto;
-    width: 170px;
+    left: 30.5%;
+    top: 30px;
+    width: 39%;
     border-radius: 50%;
     background-color: red;
     border: 4px solid #fff;
@@ -84,7 +85,6 @@ html {
 
 .social {
     width: inherit;
-
     height: 90px;
     position: absolute;
     top: 300px;
@@ -97,7 +97,6 @@ html {
 
 .button-container {
     width: inherit;
-
     height: 50px;
     position: absolute;
     top: 380px;
@@ -127,15 +126,6 @@ html {
     background: blue;
     transition: 0.4s;
 }
-/* 
-.followButton {
-    margin-left: 15%;
-}
-
-.subscribeButton {
-    margin-left: 5%;
-
-} */
 
 .response-container {
     margin-left: 15%;
