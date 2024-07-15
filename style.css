@@ -1,0 +1,160 @@
+body,
+html {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.root-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-container {
+    width: 430px;
+    height: 510px;
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.card-top-bg {
+    height: 30%;
+    /* position: absolute; */
+    width: 450px;
+    background-color: #3f72ec;
+}
+
+/* .profile {
+
+
+} */
+
+.profile img {
+    position: absolute;
+    left: 140px;
+    top: 30px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: red;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 4px #3f72ec;
+}
+
+.about-container {
+    height: 70%;
+    width: 450px;
+    /* po */
+}
+
+.name {
+    /* width: 450px; */
+    width: inherit;
+    text-align: center;
+    position: absolute;
+    top: 220px;
+
+}
+
+.name span {
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+.description {
+    width: inherit;
+    text-align: center;
+    position: absolute;
+    top: 260px;
+
+}
+
+.description span {
+    font-weight: 600;
+    opacity: 0.7;
+    font-size: 15px;
+
+}
+
+
+.social {
+    width: inherit;
+
+    height: 90px;
+    position: absolute;
+    top: 300px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+}
+
+
+
+.button-container {
+    width: inherit;
+
+    height: 50px;
+    position: absolute;
+    top: 380px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.buttonClass {
+    font-size: 15px;
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background: #3f72ec;
+
+}
+
+.buttonClass:hover {
+    background: blue;
+    transition: 0.4s;
+}
+/* 
+.followButton {
+    margin-left: 15%;
+}
+
+.subscribeButton {
+    margin-left: 5%;
+
+} */
+
+.response-container {
+    margin-left: 15%;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 460px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.column {
+    opacity: 0.4;
+    font-weight: bold;
+}
